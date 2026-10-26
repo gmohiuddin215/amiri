@@ -10,7 +10,7 @@ position = "{0, 120}";
 );
 components = (
 {
-name = "teh-ar";
+name = "teh-ar.small";
 transform = "{0.4, 0, 0, 0.4, -185.485, 149.8}";
 }
 );
@@ -26,7 +26,7 @@ position = "{0, 120}";
 );
 components = (
 {
-name = "teh-ar";
+name = "teh-ar.small";
 transform = "{0.4, 0, 0, 0.4, -185.485, 149.8}";
 }
 );

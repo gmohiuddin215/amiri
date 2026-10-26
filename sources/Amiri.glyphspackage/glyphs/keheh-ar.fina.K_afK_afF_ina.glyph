@@ -36,7 +36,7 @@ position = "{366, 801}";
 },
 {
 name = TashkilBelow;
-position = "{444, -327}";
+position = "{444, -323}";
 }
 );
 components = (

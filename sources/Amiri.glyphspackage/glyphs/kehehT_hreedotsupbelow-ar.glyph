@@ -9,13 +9,13 @@ position = "{519, 801}";
 },
 {
 name = TashkilBelow;
-position = "{500, -327}";
+position = "{500, -308}";
 }
 );
 components = (
 {
 name = "threedotsupbelow-ar";
-transform = "{1, 0, 0, 1, 480, -207}";
+transform = "{1, 0, 0, 1, 480, -187}";
 },
 {
 name = aGaf.isol;
@@ -32,13 +32,13 @@ position = "{519, 801}";
 },
 {
 name = TashkilBelow;
-position = "{500, -327}";
+position = "{500, -302}";
 }
 );
 components = (
 {
 name = "threedotsupbelow-ar";
-transform = "{1, 0, 0, 1, 480, -207}";
+transform = "{1, 0, 0, 1, 480, -181}";
 },
 {
 name = aGaf.isol;

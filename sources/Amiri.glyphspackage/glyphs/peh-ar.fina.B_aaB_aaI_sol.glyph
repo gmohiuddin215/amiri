@@ -13,7 +13,7 @@ position = "{423, 801}";
 },
 {
 name = TashkilBelow;
-position = "{456, -368}";
+position = "{456, -347}";
 }
 );
 components = (
@@ -22,7 +22,7 @@ name = aBaa.fina.BaaBaaIsol;
 },
 {
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 417, -347}";
+transform = "{1, 0, 0, 1, 417, -326}";
 }
 );
 layerId = "7FE84AD5-D318-40C5-A81A-3CDC73FF77D2";
@@ -40,7 +40,7 @@ position = "{423, 801}";
 },
 {
 name = TashkilBelow;
-position = "{456, -368}";
+position = "{456, -343}";
 }
 );
 components = (
@@ -49,7 +49,7 @@ name = aBaa.fina.BaaBaaIsol;
 },
 {
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 417, -347}";
+transform = "{1, 0, 0, 1, 417, -321}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";

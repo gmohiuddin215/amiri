@@ -899,3 +899,19 @@ feature rlig {
     sub @Tashkil.below' lookup KasraAynFina @aAyn.fina;
     sub @Tashkil.below' lookup KasraHaaFina @aHaa.fina;
 } rlig;
+
+# Use the reh shape of عرفت (MemRaaIsol) for all joined final reh forms.
+lookup RaaFinaMemRaaIsol {
+    sub @aRaa.fina by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.BaaRaaFina by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.BaaRaaIsol by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.HaaRaaIsol by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.KafRaaFina by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.KafRaaIsol by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.LamRaaIsol by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.PostTooth by @aRaa.fina.MemRaaIsol;
+} RaaFinaMemRaaIsol;
+
+feature rlig {
+    lookup RaaFinaMemRaaIsol;
+} rlig;

@@ -28,11 +28,11 @@ width = 527;
 anchors = (
 {
 name = TashkilAbove;
-position = "{268, 801}";
+position = "{342, 801}";
 },
 {
 name = TashkilBelow;
-position = "{219, -327}";
+position = "{293, -327}";
 }
 );
 components = (
@@ -41,11 +41,11 @@ name = aQaf.fina;
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 395, 293}";
+transform = "{1, 0, 0, 1, 469, 293}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";
-width = 533;
+width = 607;
 }
 );
 }

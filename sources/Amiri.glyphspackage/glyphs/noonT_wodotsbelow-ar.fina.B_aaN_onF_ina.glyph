@@ -32,11 +32,11 @@ width = 464;
 anchors = (
 {
 name = TashkilAbove;
-position = "{181, 801}";
+position = "{257, 801}";
 },
 {
 name = TashkilBelow;
-position = "{208, -463}";
+position = "{284, -463}";
 }
 );
 components = (
@@ -45,15 +45,15 @@ name = aNon.fina.BaaNonFina;
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 235, 349}";
+transform = "{1, 0, 0, 1, 311, 349}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 198, -419}";
+transform = "{1, 0, 0, 1, 274, -419}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";
-width = 466;
+width = 542;
 }
 );
 }

@@ -24,11 +24,11 @@ width = 551;
 anchors = (
 {
 name = TashkilAbove;
-position = "{263, 801}";
+position = "{332, 801}";
 },
 {
 name = TashkilBelow;
-position = "{248, -391}";
+position = "{317, -391}";
 }
 );
 components = (
@@ -37,7 +37,7 @@ name = aNon.fina;
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";
-width = 546;
+width = 615;
 }
 );
 }

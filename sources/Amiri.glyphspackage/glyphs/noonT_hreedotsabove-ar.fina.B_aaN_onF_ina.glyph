@@ -28,11 +28,11 @@ width = 464;
 anchors = (
 {
 name = TashkilAbove;
-position = "{181, 801}";
+position = "{257, 801}";
 },
 {
 name = TashkilBelow;
-position = "{163, -327}";
+position = "{239, -327}";
 }
 );
 components = (
@@ -41,11 +41,11 @@ name = aNon.fina.BaaNonFina;
 },
 {
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 235, 349}";
+transform = "{1, 0, 0, 1, 311, 349}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";
-width = 466;
+width = 542;
 }
 );
 }

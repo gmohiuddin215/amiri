@@ -14,7 +14,7 @@ position = "{0, 120}";
 );
 components = (
 {
-name = "noon-ar";
+name = "noon-ar.small";
 transform = "{0.4, 0, 0, 0.4, -114.608, 164.053}";
 }
 );
@@ -34,7 +34,7 @@ position = "{0, 120}";
 );
 components = (
 {
-name = "noon-ar";
+name = "noon-ar.small";
 transform = "{0.4, 0, 0, 0.4, -114.608, 164.053}";
 }
 );

@@ -899,3 +899,68 @@ feature rlig {
     sub @Tashkil.below' lookup KasraAynFina @aAyn.fina;
     sub @Tashkil.below' lookup KasraHaaFina @aHaa.fina;
 } rlig;
+
+# Use the reh shape of عرفت (MemRaaIsol) for all joined final reh forms.
+lookup RaaFinaMemRaaIsol {
+    sub @aRaa.fina by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.BaaRaaFina by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.BaaRaaIsol by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.HaaRaaIsol by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.KafRaaFina by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.KafRaaIsol by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.LamRaaIsol by @aRaa.fina.MemRaaIsol;
+    sub @aRaa.fina.PostTooth by @aRaa.fina.MemRaaIsol;
+} RaaFinaMemRaaIsol;
+
+feature rlig {
+    lookup RaaFinaMemRaaIsol;
+} rlig;
+
+# The MemRaaIsol reh joins at the baseline, so letters preceding it use
+# their plain forms instead of the raised/shortened variants made for the
+# other reh shapes (this also restores the last tooth of seen/sheen).
+lookup PreRaaMemRaaIsol {
+    sub @aBaa.init.BaaRaaIsol by @aBaa.init;
+    sub @aBaa.medi.BaaRaaFina by @aBaa.medi;
+    sub @aHaa.init.HaaRaaIsol by @aHaa.init;
+    sub @aKaf.init.KafRaaIsol by @aKaf.init;
+    sub @aKaf.medi.KafRaaFina by @aKaf.medi;
+    sub @aLam.init.LamRaaIsol by @aLam.init;
+    sub @aSen.init.PreYaa by @aSen.init;
+    sub @aSen.medi.PreYaa by @aSen.medi;
+    sub @aSad.init.PreYaa by @aSad.init;
+    sub @aSad.medi.PreYaa by @aSad.medi;
+    sub @aSen.medi.BaaSenAltInit by @aSen.medi;
+    sub @aBaa.init.BaaSenAltInit by @aBaa.init;
+} PreRaaMemRaaIsol;
+
+feature rlig {
+    lookupflag IgnoreMarks;
+    sub @aBaa.init.BaaSenAltInit' lookup PreRaaMemRaaIsol @aSen.medi.BaaSenAltInit' lookup PreRaaMemRaaIsol @aRaa.fina.MemRaaIsol;
+    sub [@aBaa.init.BaaRaaIsol @aBaa.medi.BaaRaaFina @aHaa.init.HaaRaaIsol @aKaf.init.KafRaaIsol @aKaf.medi.KafRaaFina @aLam.init.LamRaaIsol @aSen.init.PreYaa @aSen.medi.PreYaa @aSad.init.PreYaa @aSad.medi.PreYaa]' lookup PreRaaMemRaaIsol @aRaa.fina.MemRaaIsol;
+} rlig;
+
+# After letters that join at a flat baseline, use a MemRaaIsol reh with a
+# flat entry, so the join has no corner or spur.
+@PreRaaSteep = [@aMem.init.MemRaaIsol @aAyn.init];
+
+lookup RaaMemRaaFina {
+    sub @aRaa.fina.MemRaaIsol by @aRaa.fina.MemRaaFina;
+} RaaMemRaaFina;
+
+feature rlig {
+    lookupflag IgnoreMarks;
+    ignore sub @PreRaaSteep @aRaa.fina.MemRaaIsol';
+    sub @aRaa.fina.MemRaaIsol' lookup RaaMemRaaFina;
+} rlig;
+
+# Kaf with a flat exit, so it joins the MemRaaFina reh without a step.
+lookup KafPreRaa {
+    sub @aKaf.init by @aKaf.init.PreRaa;
+    sub @aKaf.medi by @aKaf.medi.PreRaa;
+} KafPreRaa;
+
+feature rlig {
+    lookupflag IgnoreMarks;
+    sub [@aKaf.init @aKaf.medi]' lookup KafPreRaa @aRaa.fina.MemRaaFina;
+} rlig;

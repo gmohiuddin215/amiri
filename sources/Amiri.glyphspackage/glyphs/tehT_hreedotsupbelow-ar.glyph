@@ -18,7 +18,7 @@ name = aBaa.isol;
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 393, 325}";
+transform = "{1, 0, 0, 1, 393, 308}";
 },
 {
 name = "threedotsupbelow-ar";
@@ -45,7 +45,7 @@ name = aBaa.isol;
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 408, 340}";
+transform = "{1, 0, 0, 1, 408, 323}";
 },
 {
 name = "threedotsupbelow-ar";

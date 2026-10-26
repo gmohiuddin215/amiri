@@ -5,11 +5,11 @@
 @Alf_2 = [@aAlf.fina @aAlf.fina.KafAlf @aAlf.fina.KafMemAlf @aAlf.fina.LamAlfFina @aAlf.fina.LamAlfIsol @aAlf.fina.MemAlfFina];
 @Kaf_1 = [@aKaf.init.KafHeh @aKaf.init.KafMemIsol];
 @Kaf_2 = [@aKaf.init.KafBaaInit @aKaf.init.KafMemAlf];
-@Kaf_3 = [@aKaf.init @aKaf.init.KafLam @aKaf.init.PreHeh @aGaf.isol];
+@Kaf_3 = [@aKaf.init @aKaf.init.PreRaa @aKaf.init.KafLam @aKaf.init.PreHeh @aGaf.isol];
 @Kaf_4 = [@aKaf.init.KafYaaIsol];
 @Kaf_5 = [@aKaf.init.KafMemInit @aKaf.init.KafRaaIsol];
 @Raa_1 = [@RaaWaw @aDal.fina @aDal.isol @aDal.fina.BaaDal @aDal.fina.KafDal @aDal.fina.LamDal];
-@Raa_2 = [@aRaa.fina.MemRaaIsol];
+@Raa_2 = [@aRaa.fina.MemRaaIsol @aRaa.fina.MemRaaFina];
 @2nd_3 = [@aSen.init.SenHaaInit @aSad.init.SadHaaInit @aLam.init.LamHaaHaaInit];
 @2nd_4 = [@aSad.init.AboveHaa @aSen.init.AboveHaa @aHeh.init.AboveHaa @aHaa.init.AboveHaa @aMem.init.AboveHaa @aKaf.init.AboveHaa @aAyn.init.AboveHaa];
 @Teh_m = [tehMarbuta-ar.fina.LamHeh tehMarbuta-ar.fina.KafHeh tehMarbutagoal-ar.fina.LamHeh tehMarbutagoal-ar.fina.KafHeh];

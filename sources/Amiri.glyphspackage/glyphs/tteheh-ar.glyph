@@ -18,7 +18,7 @@ name = aBaa.isol;
 },
 {
 name = "twodotsverticalabove-ar";
-transform = "{1, 0, 0, 1, 393, 325}";
+transform = "{1, 0, 0, 1, 393, 308}";
 }
 );
 layerId = "7FE84AD5-D318-40C5-A81A-3CDC73FF77D2";
@@ -41,7 +41,7 @@ name = aBaa.isol;
 },
 {
 name = "twodotsverticalabove-ar";
-transform = "{1, 0, 0, 1, 408, 340}";
+transform = "{1, 0, 0, 1, 408, 323}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";
